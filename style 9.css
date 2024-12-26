@@ -1,0 +1,101 @@
+/* Reset margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for Player 1 text */
+.p1 {
+    font-style: italic;
+    margin-left: 80%;
+    text-decoration: underline;
+    color: bisque;
+}
+
+/* Styling for Player 2 text */
+.p2 {
+    font-style: italic;
+    margin-left: 80%;
+    text-decoration: underline;
+    color: bisque;
+}
+
+/* Styling for the body element */
+body {
+    background-color: #3E6259;
+    text-align: center;
+}
+
+/* Container for the game grid */
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the game grid */
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+/* Styling for each box in the grid */
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.9);
+    font-size: 8vmin;
+    color: #FF495C;
+    background-color: cornsilk;
+}
+
+/* Styling for the reset button */
+.res {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: oldlace;
+    border-style: groove;
+    border-color: whitesmoke;
+    cursor: grab;
+}
+
+/* Styling for the new game button */
+.new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: oldlace;
+    border-style: groove;
+    border-color: whitesmoke;
+    cursor: grab;
+}
+
+/* Styling for the message text */
+.msag {
+    color: oldlace;
+    font-size: 8vmin;
+}
+
+/* Container for the message display */
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+/* Class to hide elements */
+.hide {
+    display: none;
+}
